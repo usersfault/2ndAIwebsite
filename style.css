@@ -6,7 +6,7 @@ html,body { height:100%; }
 body {
   margin:0;
   font-family: Inter, "Segoe UI", system-ui, -apple-system, "Segoe UI Emoji", "Helvetica Neue", Arial, sans-serif;
-  background: url('assets/background.jpg') no-repeat center center fixed;
+  background: url('background.jpg') no-repeat center center fixed;
   background-size: cover;
   color: #dbeafe; /* soft off-white for readability */
   -webkit-font-smoothing:antialiased;
