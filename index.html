@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Home — Learn, Shield, Repeat</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="site-overlay"></div>
+
+  <header class="navbar container">
+    <div class="logo">⚡ Learn, Shield, Repeat</div>
+
+    <button class="menu-toggle" aria-label="Toggle menu" data-sound>
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html" data-sound>Home</a></li>
+        <li><a href="about.html" data-sound>About</a></li>
+        <li><a href="learnings.html" data-sound>Learnings</a></li>
+        <li><a href="blog.html" data-sound>Blog</a></li>
+        <li><a href="projects.html" data-sound>Projects</a></li>
+        <li><a href="contact.html" data-sound>Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-icons">
+      <a href="about.html" title="About" aria-label="About"><img src="assets/linkedin.png" alt="linkedin" style="width:22px;opacity:0.12"></a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-inner">
+        <h1>Welcome</h1>
+        <div class="typing" aria-hidden="true"></div>
+        <p class="intro">
+          A cyber-inspired space focused on learning and building — <strong>networking</strong>, <strong>Linux</strong>, <strong>bug bounty</strong>, and the strategic use of <strong>AI</strong> to accelerate learning and automation.
+        </p>
+        <p style="margin-top:8px;color:#cfeff4">
+          This site documents hands-on experiments, tools, and thinking that helped shape my journey. Click below to explore the learning notes, projects, and blog posts.
+        </p>
+        <div style="margin-top:18px;">
+          <a class="btn" href="learnings.html" data-sound>View Learnings</a>
+          <a class="btn" href="projects.html" style="margin-left:10px" data-sound>View Projects</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 style="color:#bffeff">Highlights</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3>Hands-on Networking</h3>
+          <p>Port scanning, banner grabbing, packet-level thinking, DNS enumeration and making sense of network traces using tools like Nmap and Wireshark.</p>
+        </div>
+        <div class="card">
+          <h3>Linux Proficiency</h3>
+          <p>Terminal workflows, permissions &amp; SetUID, sandboxed VMs for testing, automating tasks with scripts and practical hardening steps.</p>
+        </div>
+        <div class="card">
+          <h3>Bug Bounty & Web Security</h3>
+          <p>Understanding HTTP/JSON, cookies & sessions, exploiting misconfigurations, and writing clear PoCs and reports.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div>© 2025 — Learn, Shield, Repeat</div>
+    <div class="footer-social" style="margin-left:16px">
+      <a href="https://www.instagram.com/as.ayushhh/?hl=en" target="_blank" rel="noopener">
+        <img src="assets/instagram.png" alt="Instagram" />
+      </a>
+      <a href="https://www.linkedin.com/in/ayush-salve-59a903312/" target="_blank" rel="noopener" style="margin-left:8px">
+        <img src="assets/linkedin.png" alt="LinkedIn" />
+      </a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

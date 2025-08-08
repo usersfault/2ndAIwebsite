@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Learnings — Networking, Linux, WebPentest, AI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="site-overlay"></div>
+
+  <header class="navbar container">
+    <div class="logo">⚡ Learn, Shield, Repeat</div>
+    <button class="menu-toggle" aria-label="Toggle menu" data-sound><span class="bar"></span><span class="bar"></span><span class="bar"></span></button>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html" data-sound>Home</a></li>
+        <li><a href="about.html" data-sound>About</a></li>
+        <li><a href="learnings.html" data-sound>Learnings</a></li>
+        <li><a href="blog.html" data-sound>Blog</a></li>
+        <li><a href="projects.html" data-sound>Projects</a></li>
+        <li><a href="contact.html" data-sound>Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <h1>My Learning Journey</h1>
+      <p>This page collects everything I learned and practiced while building skills in networking, Linux, bug bounty, and AI-assisted learning. It's long — dive into sections that interest you.</p>
+
+      <h2 style="color:#bffeff">Networking Fundamentals</h2>
+      <p>Networking is the backbone of everything online. Key topics I learned and practiced:</p>
+      <ul>
+        <li><strong>HTTP & HTTPS</strong> — requests, responses, status codes, headers, cookies, sessions, and how HTTPS secures transport via TLS.</li>
+        <li><strong>DNS</strong> — resolving domain names, record types (A, AAAA, CNAME, MX, TXT), and DNS enumeration techniques.</li>
+        <li><strong>TCP/UDP</strong> — reliable vs connectionless transports, when services use each, and how that affects testing.</li>
+        <li><strong>Ports & Scanning</strong> — Nmap usage patterns, service fingerprinting and banner grabbing to identify running services.</li>
+      </ul>
+
+        <h2 style="color:#bffeff">Linux & System Administration</h2>
+        <p>Linux is my lab environment. Essentials I practiced:</p>
+        <ul>
+          <li>Navigation and file tooling: <code>ls, cd, find, cat, grep</code></li>
+          <li>Permissions & special bits: <code>chmod, chown, SetUID</code>, how SetUID binaries can be abused for privilege escalation when misconfigured</li>
+          <li>Process and service control: <code>systemctl, ps, top</code>, and securing services with firewalls.</li>
+          <li>Using VMs and containers to safely test exploits and tools.</li>
+        </ul>
+
+        <h2 style="color:#bffeff">Practical Tools</h2>
+        <div class="card-grid">
+          <div class="card">
+            <h3>Nmap</h3>
+            <p>Port scanning, NSE scripts, OS detection and how to interpret scan results for recon and prioritizing targets.</p>
+          </div>
+          <div class="card">
+            <h3>Netcat</h3>
+            <p>Socket interactions, reverse shells, and simple data transfer — the swiss-army knife for quick testing.</p>
+          </div>
+          <div class="card">
+            <h3>Burp Suite & Browser DevTools</h3>
+            <p>Intercepting HTTP traffic, modifying requests, learning to read JSON and form data for vulnerability discovery.</p>
+          </div>
+        </div>
+
+        <h2 style="color:#bffeff">Bug Bounty & Web Security</h2>
+        <p>What I focused on learning and practicing:</p>
+        <ul>
+          <li>Understanding stateful vs stateless systems, session & cookie flows, CSRF, XSS, SQLi basics.</li>
+          <li>Practicing labs in PortSwigger Web Security Academy and writing proof-of-concept exploit steps clearly.</li>
+          <li>Learning how to use AI to summarize request flows, suggest test cases, and draft bug reports — while ensuring manual verification.</li>
+        </ul>
+
+        <h2 style="color:#bffeff">AI in the Loop</h2>
+        <p>How I use AI (LLMs) to accelerate learning:</p>
+        <ul>
+          <li>Breaking down complex topics into simpler steps and checklists.</li>
+          <li>Generating scaffolded practice exercises and creating payload templates for testing APIs.</li>
+          <li>Drafting clear writeups for bug reports based on manual observations.</li>
+        </ul>
+
+        <h2 style="color:#bffeff">Practical Next Steps (Roadmap)</h2>
+        <ul>
+          <li>Learn Burp Suite advanced flows — Repeater, Intruder, Collaborator usage.</li>
+          <li>Build automation scripts to parse Nmap output and highlight likely attack paths.</li>
+          <li>Create a reproducible lab environment for Web & API testing and keep documenting progress on this site.</li>
+        </ul>
+
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>© 2025 Adapt and strive!</div>
+    <div class="footer-social">
+      <a href="https://www.instagram.com/as.ayushhh/?hl=en" target="_blank" rel="noopener"><img src="assets/instagram.png" alt="Instagram" /></a>
+      <a href="https://www.linkedin.com/in/ayush-salve-59a903312/" target="_blank" rel="noopener" style="margin-left:8px"><img src="assets/linkedin.png" alt="LinkedIn" /></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
